@@ -38,7 +38,7 @@ def full(subdomains):
  	   except requests.ConnectionError:
  	   	pass
  	   else:
- 	   	print("[+] Discovered subdomain:", url)
+ 	   	print(url)
  	   	global find
  	   	find+=1
 

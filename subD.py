@@ -5,7 +5,7 @@ green="\033[1;32;40m"
 red="\033[1;31;40m"
 drk="\033[1;30;40m"
 white="\033[1;37;40m"
-usage = f'\n\033[1;31;40m[+]-----------------Required Arguments -----------------[+]\n{white}python3 subD.py [host]\n{green}example: python3 subD.py example.com\n[+]{red}------------------Optional Arguments------------------[+]{white}python3 subD.py [host]-o [filename or filepath]\n{green}example: python3 subD.py example.com -o results.txt '
+usage = f'\n\033[1;31;40m[+]-----------------Required Arguments -----------------[+]\n{white}python3 subD.py [host]\n{green}example: python3 subD.py example.com\n[+]{red}------------------Optional Arguments------------------[+]\n{white}python3 subD.py [host]-o [filename or filepath]\n{green}example: python3 subD.py example.com -o results.txt '
 if (len(sys.argv)<2):
 	print(usage)
 	sys.exit()
